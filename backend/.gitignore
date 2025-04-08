@@ -1,0 +1,40 @@
+# Ignore Composer vendor directory
+/vendor/
+
+# Ignore PHPUnit files
+/phpunit.xml
+/phpunit.xml.dist
+/tests/_output/
+
+# Ignore environment files
+/.env
+/.env.local
+/.env.*.local
+
+# Ignore IDE/editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Composer lock file if you don't want to commit it
+composer.lock
+
+# Ignore node_modules and npm-related files if you're using a frontend (e.g., Vue, React)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Ignore log files
+*.log
+
+# Ignore public assets generated during the build process
+/public/build/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore any temporary files
+*.swp
+*.swo
